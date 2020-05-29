@@ -1,3 +1,5 @@
+<?php ?>
+
 <div class="card">
     <div class="card-header">
         Submit Bug
@@ -5,7 +7,7 @@
     <div class="card-block bug-list">
         <ul class="list-group list-group-flush">
             <li class="list-group-item">
-                <img class="img" src="" />
+                <img class="img" src="" alt="not-available" />
                 Title
             </li>
         </ul>
