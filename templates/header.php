@@ -16,10 +16,10 @@
                 <a class="nav-link" href="?p=index">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="?p=submitbug">Bug einreichen</a>
+                <a class="nav-link" href="?p=submitbug">Submit a Bug</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="?p=listbugs">Bugs bearbeiten</a>
+                <a class="nav-link" href="?p=listbugs">Check Bugs</a>
             </li>
         </ul>
         <!-- Right side text -->

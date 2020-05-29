@@ -10,11 +10,13 @@ if(isset($_GET['p'])) {
 ?>
 
 <!doctype HTML>
-<html lang="de">
+<html lang="en">
 
     <head>
 
         <title><?php echo($title); ?></title>
+
+        <meta charset="UTF-8">
 
         <link rel="stylesheet" href="assets/css/bootstrap.css">
         <link rel="stylesheet" href="assets/css/bootstrap-grid.css">
