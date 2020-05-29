@@ -4,7 +4,7 @@ require_once("config/config.php");
 if(isset($_GET['p'])) {
     $p = htmlspecialchars($_GET['p']);
 } else {
-    $p = "index";
+    $p = "information";
 }
 
 ?>

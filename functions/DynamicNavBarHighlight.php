@@ -6,10 +6,10 @@
  */
 
 function echoActiveClassIfRequestMatches($requestUri) {
-    $current_file_name = basename($_SERVER['REQUEST_URI'], ".php");
+    $current_file_name = basename($_SERVER['REQUEST_URI']);
 
-    if ($current_file_name == $requestUri)
-        echo 'active';
+    if ($current_file_name == 'index.php' . $requestUri)
+        return 'active';
+
+    return '';
 }
-
-

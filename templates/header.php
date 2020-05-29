@@ -1,4 +1,8 @@
-<?php ?>
+<?php
+
+    require_once('functions/DynamicNavBarHighlight.php')
+
+?>
 <!-- Header -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <!-- Picture & Title -->
@@ -12,14 +16,14 @@
     <!-- Navbar -->
     <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="?p=index">Home <span class="sr-only">(current)</span></a>
+            <li class="nav-item">
+                <a class="nav-link <?=echoActiveClassIfRequestMatches("?p=information")?>" href="?p=information">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="?p=submitbug">Submit a Bug</a>
+                <a class="nav-link <?=echoActiveClassIfRequestMatches("?p=submitbug")?>" href="?p=submitbug">Submit a Bug</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="?p=listbugs">Check Bugs</a>
+                <a class="nav-link <?=echoActiveClassIfRequestMatches("?p=listbugs")?>" href="?p=listbugs">Check Bugs</a>
             </li>
         </ul>
         <!-- Right side text -->

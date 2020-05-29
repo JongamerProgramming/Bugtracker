@@ -1,5 +1,5 @@
 <?php
 
-echo("Hier werden die Bugs aufgelistet");
+echo("This page is used to list all open/closed bugs");
 
 ?>
