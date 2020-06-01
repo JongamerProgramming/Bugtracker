@@ -6,7 +6,7 @@
 <!-- Header -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <!-- Picture & Title -->
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="?pInformation">
         <img src="./assets/images/bug.svg" width="30" height="30" class="d-inline-block align-top" alt="">
         Bugtracker
     </a>
@@ -23,7 +23,7 @@
                 <a class="nav-link <?=echoActiveClassIfRequestMatches("?p=submitbug")?>" href="?p=submitbug">Submit a Bug</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link <?=echoActiveClassIfRequestMatches("?p=listbugs")?>" href="?p=listbugs">Check Bugs</a>
+                <a class="nav-link <?=echoActiveClassIfRequestMatches("?p=listbugs")?>" href="?p=listbugs&id=1">Check Bugs</a>
             </li>
         </ul>
         <!-- Right side text -->

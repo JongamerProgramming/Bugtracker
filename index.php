@@ -7,6 +7,12 @@ if(isset($_GET['p'])) {
     $p = "information";
 }
 
+if(isset($_GET['id'])) {
+    $id = htmlspecialchars($_GET['id']);
+} else {
+    $id = "-1";
+}
+
 ?>
 
 <!doctype HTML>
