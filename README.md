@@ -1,6 +1,10 @@
 # Bugtracker
 A bugtracker built on PHP and Bootstrap
 
+## About
+This system is built on PHP and Bootstrap 4 <br>
+Database: MySQL
+
 ## Planned Features
 
 Implemented -> ✔️ <br>
