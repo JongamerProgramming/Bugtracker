@@ -32,7 +32,7 @@
         </select>
     </div>
     <div class="form-group">
-        <label for="exampleFormControlTextarea1">Describe your bugs</label>
+        <label for="exampleFormControlTextarea1">Describe your bug</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
     </div>
     <div class="form-group">
